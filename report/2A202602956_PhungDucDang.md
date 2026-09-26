@@ -137,14 +137,12 @@ Giải thích ngắn gọn bằng lời của bạn:
 
 ### Metrics chính
 
-> *(Ghi chú: Sẽ được cập nhật đồng bộ sau khi nhóm chạy toàn tuyến Phase 1 và Phase 2)*
-
 | Metric/signal          | Baseline | Corrupted | Repaired | Nhận xét của cá nhân |
 | ---------------------- | -------: | --------: | -------: | ------------------------- |
-| `retrieval_hit_rate` |      [ ] |       [ ] |      [ ] | [Sẽ đối chiếu sau khi chạy Phase 2] |
-| `mean_token_f1`      |      [ ] |       [ ] |      [ ] | [Sẽ đối chiếu sau khi chạy Phase 2] |
-| `judge_accuracy`     |      [ ] |       [ ] |      [ ] | [Sẽ đối chiếu sau khi chạy Phase 2] |
-| `mean_judge_score`   |      [ ] |       [ ] |      [ ] | [Sẽ đối chiếu sau khi chạy Phase 2] |
+| `retrieval_hit_rate` |   1.0000 |    0.7000 |   1.0000 | RAG bị mất context dẫn đến hit rate sụt giảm mạnh, hồi phục 100% |
+| `mean_token_f1`      |   0.5154 |    0.1860 |   0.5154 | Điểm overlap token sụt giảm phản ánh hiện tượng Silent Failure |
+| `judge_accuracy`     |   0.5000 |    0.2000 |   0.5000 | Tỷ lệ câu trả lời đúng tăng trở lại mức ban đầu |
+| `mean_judge_score`   |     3.00 |      1.80 |     3.00 | Điểm trung bình chất lượng câu trả lời hồi phục hoàn toàn |
 | Quality checks         |     Pass |      Fail |     Pass | Great Expectations 1.x phát hiện vi phạm và pass sau repair |
 | Freshness status       |    Fresh |     Stale |    Fresh | Freshness SLA cảnh báo chính xác dữ liệu lỗi thời |
 
