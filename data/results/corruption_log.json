@@ -1,0 +1,111 @@
+[
+  {
+    "corruption_type": "drop_latest_record",
+    "paper_id": "10.1145/3637528.3671812",
+    "title": "Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines",
+    "detail": "Dropped latest record published on 2026-07-22"
+  },
+  {
+    "corruption_type": "drop_latest_record",
+    "paper_id": "10.1145/3637528.3671808",
+    "title": "Multi-Agent Consensus for High-Stakes Fact Verification",
+    "detail": "Dropped latest record published on 2026-07-19"
+  },
+  {
+    "corruption_type": "drop_latest_record",
+    "paper_id": "10.1145/3637528.3671804",
+    "title": "Freshness SLAs for Real-Time LLM Knowledge Augmentation",
+    "detail": "Dropped latest record published on 2026-07-05"
+  },
+  {
+    "corruption_type": "drop_latest_record",
+    "paper_id": "10.1145/3637528.3671807",
+    "title": "Synthetic Corruption Testing: Stress-Testing Vector Search Robustness",
+    "detail": "Dropped latest record published on 2026-06-25"
+  },
+  {
+    "corruption_type": "blank_summary",
+    "paper_id": "10.1145/3637528.3671801",
+    "original_summary_snippet": "Retrieval-Augmented Generation (RAG) significantly",
+    "detail": "Set summary to empty string"
+  },
+  {
+    "corruption_type": "inject_noise",
+    "paper_id": "10.1145/3637528.3671802",
+    "injected_noise": "@@ERROR_NOISE_CORRUPTED_STRING_RANDOM_GARBAGE_PAYLOAD@@",
+    "detail": "Prepended noisy corrupt payload to summary"
+  },
+  {
+    "corruption_type": "truncate_title",
+    "paper_id": "10.1145/3637528.3671803",
+    "original_title": "Mitigating Ghost Vectors in Dense Retrieval via Idempotent Indexing",
+    "new_title": "Paper",
+    "detail": "Truncated title to 5 characters"
+  },
+  {
+    "corruption_type": "stale_date",
+    "paper_id": "10.1145/3637528.3671801",
+    "original_published": "2026-05-20",
+    "corrupted_published": "2025-05-20",
+    "new_age_days": 494,
+    "detail": "Shifted publication date back by 365 days to induce SLA violation"
+  },
+  {
+    "corruption_type": "stale_date",
+    "paper_id": "10.1145/3637528.3671802",
+    "original_published": "2026-06-12",
+    "corrupted_published": "2025-06-12",
+    "new_age_days": 471,
+    "detail": "Shifted publication date back by 365 days to induce SLA violation"
+  },
+  {
+    "corruption_type": "stale_date",
+    "paper_id": "10.1145/3637528.3671803",
+    "original_published": "2026-04-18",
+    "corrupted_published": "2025-04-18",
+    "new_age_days": 526,
+    "detail": "Shifted publication date back by 365 days to induce SLA violation"
+  },
+  {
+    "corruption_type": "stale_date",
+    "paper_id": "10.1145/3637528.3671805",
+    "original_published": "2026-03-28",
+    "corrupted_published": "2025-03-28",
+    "new_age_days": 547,
+    "detail": "Shifted publication date back by 365 days to induce SLA violation"
+  },
+  {
+    "corruption_type": "stale_date",
+    "paper_id": "10.1145/3637528.3671806",
+    "original_published": "2026-05-02",
+    "corrupted_published": "2025-05-02",
+    "new_age_days": 512,
+    "detail": "Shifted publication date back by 365 days to induce SLA violation"
+  },
+  {
+    "corruption_type": "stale_date",
+    "paper_id": "10.1145/3637528.3671809",
+    "original_published": "2026-04-30",
+    "corrupted_published": "2025-04-30",
+    "new_age_days": 514,
+    "detail": "Shifted publication date back by 365 days to induce SLA violation"
+  },
+  {
+    "corruption_type": "stale_date",
+    "paper_id": "10.1145/3637528.3671810",
+    "original_published": "2026-06-08",
+    "corrupted_published": "2025-06-08",
+    "new_age_days": 475,
+    "detail": "Shifted publication date back by 365 days to induce SLA violation"
+  },
+  {
+    "corruption_type": "duplicate_row",
+    "paper_id": "10.1145/3637528.3671801",
+    "detail": "Duplicated existing row to violate unique primary key constraint"
+  },
+  {
+    "corruption_type": "duplicate_row",
+    "paper_id": "10.1145/3637528.3671802",
+    "detail": "Duplicated existing row to violate unique primary key constraint"
+  }
+]

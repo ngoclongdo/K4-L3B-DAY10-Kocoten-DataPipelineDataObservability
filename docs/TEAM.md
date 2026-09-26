@@ -10,7 +10,7 @@
 
 | STT | Họ và tên | MSSV | Email | Vai trò & Phân công công việc | Báo cáo cá nhân |
 |---:|---|---|---|---|---|
-| 1 | Đỗ Nguyễn Ngọc Long | 2A202602390 | ngoclongdo2004@gmail.com | Trưởng nhóm / Pipeline Integrator (`core/`, `phase1.py`, `corruption_flow.py`) | `report/<MSSV1>_HoTen.md` |
+| 1 | Đỗ Nguyễn Ngọc Long | 2A202602390 | ngoclongdo2004@gmail.com | Trưởng nhóm / Pipeline Integrator (`core/`, `phase1.py`, `corruption_flow.py`) | `report/2A202602390_DoNguyenNgocLong.md` |
 | 2 | Cao Đức Anh | 2A202602754 | caoducanh1234@gmail.com | Data Foundation & Recovery (`crossref.py`, `cleaning.py`, raw data) | `report/2A202602754_CaoDucAnh.md` |
 | 3 | Nguyễn Tuấn Anh | 2A202602535 | ntuananh22804@gmail.com | RAG & Vector Index (`retrieval/index.py`, `embeddings.py`, ChromaDB) | `report/2A202602535_NguyenTuanAnh.md` |
 | 4 | Phùng Đức Đăng | 2A202602956 | phungddang258@gmail.com | Observability & Evaluation (`quality.py` GX 1.x, `testset.py`, reporting) | `report/2A202602956_PhungDucDang.md` |
