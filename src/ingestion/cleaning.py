@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+from pathlib import Path
 import pandas as pd
 
-from core.utils import compact_join, normalize_whitespace
+from core.utils import compact_join, normalize_whitespace, write_csv, write_json
 from ingestion.crossref import PaperRecord
 
 
@@ -128,3 +129,11 @@ def repair_from_raw_snapshot(raw_records_path, run_date: datetime) -> pd.DataFra
     from ingestion.crossref import load_raw_records
     raw_records = load_raw_records(raw_records_path)
     return build_clean_dataframe(raw_records, run_date)
+
+
+def save_clean_dataframe(df: pd.DataFrame, csv_path: Path, json_path: Path) -> None:
+    """Lưu dataframe đã làm sạch ra định dạng CSV và JSON."""
+    write_csv(df, csv_path)
+    records_payload = df.to_dict(orient="records")
+    write_json(json_path, records_payload)
+
