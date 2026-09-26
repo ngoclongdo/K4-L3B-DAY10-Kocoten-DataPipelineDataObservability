@@ -30,14 +30,14 @@
 - **Điều học được / Đóng góp chính:**
   - Hiểu sâu sắc về thiết kế Idempotent Pipeline và quản lý trạng thái luồng dữ liệu đa tầng.
 
-## HoVaTen2-MSSV2
-Vai trò: Phụ trách Ingestion, Làm sạch & Phục hồi dữ liệu.
-Công việc chi tiết đã hoàn thành:
-Xây dựng module thu thập Crossref API với cơ chế Fallback offline trong src/ingestion/crossref.py.
-Chuẩn hóa schema, tính toán trường age_days và text_for_embedding trong src/ingestion/cleaning.py.
-Thực thi cơ chế Idempotent Repair phục hồi dữ liệu từ raw snapshot.
-Điều học được / Đóng góp chính:
-Kỹ thuật truy vết nguồn gốc dữ liệu (Data Lineage) và bảo toàn raw snapshot trước khi biến đổi.
+### ## HoVaTen2-MSSV2
+- **Vai trò:** Phụ trách Ingestion, Làm sạch & Phục hồi dữ liệu.
+- **Công việc chi tiết đã hoàn thành:**
+  - Xây dựng module thu thập Crossref API với cơ chế Fallback offline trong `src/ingestion/crossref.py`.
+  - Chuẩn hóa schema, tính toán trường `age_days` và `text_for_embedding` trong `src/ingestion/cleaning.py`.
+  - Thực thi cơ chế Idempotent Repair phục hồi dữ liệu từ raw snapshot.
+- **Điều học được / Đóng góp chính:**
+  - Kỹ thuật truy vết nguồn gốc dữ liệu (Data Lineage) và bảo toàn raw snapshot trước khi biến đổi.
 
 ### ## HoVaTen3-MSSV3
 - **Vai trò:** Phụ trách RAG, Vector Database & Embedding.
